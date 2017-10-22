@@ -1,2 +1,5 @@
 # Files for Test
 */a.exe
+
+# Personal Environment Settings
+*/.vscode/settings.json

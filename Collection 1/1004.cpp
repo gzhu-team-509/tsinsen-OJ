@@ -3,9 +3,12 @@ using namespace std;
 
 void mk(int);
 
+int n, m;
+
 int main()
 {
-    for (int i = 0; i < 25; i++)
+    cin >> n >> m;
+    for (int i = 0; i < n; i++)
     {
         mk('A' + i);
     }
@@ -15,12 +18,12 @@ void mk(int a)
 {
     int i = 0;
     int cur = a;
-    while (i < 18 && cur > 'A')
+    while (i < m && cur > 'A')
     {
         cout << (char)cur--;
         i++;
     }
-    while (i < 18)
+    while (i < m)
     {
         cout << (char)cur++;
         i++;
